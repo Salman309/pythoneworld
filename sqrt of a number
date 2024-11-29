@@ -1,0 +1,13 @@
+def root(n):
+    if n>=1:
+        return n**0.5
+    else:
+        print("Invalid Num")
+        return
+ 
+ 
+ 
+my_num=int(input("enter a num: "))
+root_ans=root(my_num)
+print(f"the root of {my_num} is {root_ans}")
+ 
