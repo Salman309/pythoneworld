@@ -1,0 +1,13 @@
+def at(a,b,c):
+    s=(a+b+c)/2
+    if(a**0.5 == b**0.5 + c**0.5):
+        return 0.5*b*c
+    else:
+        return s*(s-a)*(s-b)*(s-c)
+ 
+a=int(input("enter a num: "))
+b=int(input("enter a num: "))
+c=int(input("enter a num: "))
+ 
+Area=at(a,b,c)
+print(f"The area of trinagle is {Area}")
